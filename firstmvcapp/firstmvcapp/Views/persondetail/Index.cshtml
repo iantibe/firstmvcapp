@@ -1,0 +1,34 @@
+﻿@model firstmvcapp.Models.personmodel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <strong>Student infromation</strong>
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Firstname)
+        @Html.TextBoxFor(m => m.Firstname)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Lastname)
+        @Html.TextBoxFor(m => m.Lastname)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Age)
+        @Html.TextBoxFor(m => m.Age)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Genderlabel)
+        @Html.TextBoxFor(m => m.Genderlabel)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Major)
+        @Html.TextBoxFor(m => m.Major)
+    </div>
+</body>
+</html>
